@@ -14,7 +14,13 @@ pipeline
 					echo 'Welcome to Pipeline'
 				}
 			}
-			
+			stage('Clean Stage  By Kanhu')
+			{
+				steps
+				{
+					sh 'mvn clean'
+				}
+			}
 			stage('Clean Stage')
 			{
 				steps
