@@ -13,6 +13,14 @@ pipeline
 				{
 					echo 'Welcome to Pipeline'
 				}
+				stages
+		{
+			stage('Welcome Stage by Kanhu')
+			{
+				steps
+				{
+					echo 'Welcome to Pipeline'
+				}
 			}
 			stage('Clean Stage  By Kanhu')
 			{
